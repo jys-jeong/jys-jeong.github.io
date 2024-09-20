@@ -43,7 +43,7 @@ interests:
   - Application
 
 education:
-  - area: PhD Artificial
+  - area: PhD Artificial Intelligence
     institution: Stanford University
     date_start: 2016-01-01
     date_end: 2020-12-31
