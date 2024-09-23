@@ -101,21 +101,24 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Hobbies
-
+  - name: ""
     items:
-      - name: Hiking
+      - name: 스포츠
         description: ""
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: 영상 시청
         description: ""
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: film
+      - name: 맛집 탐방
         description: ""
         percent: 80
-        icon: camera
+        icon: building-storefront
+      - name: 노래 듣기
+        description: ""
+        percent: 80
+        icon: musical-note
 
 languages:
   - name: English
