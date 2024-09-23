@@ -6,7 +6,7 @@
 main:
   - name: Bio
     identifier: bio
-    url: /
+    url: bio
     weight: 10
   # - name: Papers
   #   url: /#papers
@@ -17,6 +17,9 @@ main:
   # - name: News
   #   url: /#news
   #   weight: 13
+  - name: My
+    parent: bio
+    url: /
   - name: 취미
     parent: bio
     url: /#hobbies
