@@ -1,5 +1,5 @@
 ---
-title: "activities"
+title: "Activities"
 date: 2023-10-24
 type: landing
 
@@ -14,4 +14,6 @@ sections:
     content:
       title: Awards
       username: admin
+    design:
+      view: card
 ---
