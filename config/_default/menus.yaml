@@ -19,7 +19,7 @@ main:
   #   weight: 13
   - name: hobbies
     parent: bio
-    url: /hobbies
+    url: /#hobbies
   - name: Experience
     url: experience/
     weight: 20
