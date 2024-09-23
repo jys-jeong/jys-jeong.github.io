@@ -30,6 +30,7 @@ sections:
           position: center
           parallax: false
   - block: resume-skills
+    id: hobbies
     content:
       title: Hobbies
       username: admin
