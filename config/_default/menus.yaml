@@ -17,7 +17,7 @@ main:
   # - name: News
   #   url: /#news
   #   weight: 13
-  - name: hobbies
+  - name: 취미
     parent: bio
     url: /#hobbies
   - name: Experience

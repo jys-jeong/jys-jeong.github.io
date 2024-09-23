@@ -32,7 +32,7 @@ sections:
   - block: resume-skills
     id: hobbies
     content:
-      title: Hobbies
+      title: 취미
       username: admin
     design:
       show_skill_percentage: false
