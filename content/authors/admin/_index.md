@@ -102,8 +102,7 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
+
     items:
       - name: Hiking
         description: ""
