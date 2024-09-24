@@ -16,7 +16,7 @@ sections:
       title: 활동
       filters:
         folders:
-          - active
+          - activities
     design:
       view: community/card
 
