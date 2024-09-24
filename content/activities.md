@@ -10,6 +10,16 @@ design:
 
 # Page sections
 sections:
+  - block: collection
+    id: teaching
+    content:
+      title: Teaching
+      filters:
+        folders:
+          - teaching
+    design:
+      view: article-grid
+      columns: 2
   - block: resume-awards
     content:
       title: Awards
