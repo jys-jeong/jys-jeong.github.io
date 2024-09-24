@@ -1,5 +1,5 @@
 ---
-title: active
+title: activities
 summary: My courses
 type: landing
 
@@ -11,7 +11,7 @@ cascade:
 
 sections:
   - block: collection
-    id: active
+    id: activities
     content:
       title: 활동
       filters:
