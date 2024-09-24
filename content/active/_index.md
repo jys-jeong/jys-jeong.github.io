@@ -19,7 +19,7 @@ sections:
           - active
     design:
       view: card
-      columns: 2
+
   - block: collection
     content:
       title: 활동
