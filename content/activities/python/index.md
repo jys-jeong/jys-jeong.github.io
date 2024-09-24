@@ -1,6 +1,6 @@
 ---
 title: 제1대 컴퓨터인공지능학부 학생회장
-summary: 2022.12.01 ~ 2023.11.31
+summary: 2022.12.01 ~ 2023.11.30
 date: ""
 type: docs
 math: false

@@ -1,11 +1,11 @@
 ---
-title: SW중심대학사업단 SW창업동아리
-summary: 2023.06.19 ~ 2023.11.30
-date: 2023-10-24
+title: 제 56대 온리 공과대학 선거운동본부 정책참모
+summary: 2023.09.01 ~ 2023.11.30
+date: ""
 type: docs
 math: false
 tags:
-  -
+  - Python
 image:
   caption: "Embed rich media such as videos and LaTeX math"
 ---

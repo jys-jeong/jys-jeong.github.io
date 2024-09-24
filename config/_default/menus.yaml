@@ -32,9 +32,9 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Teaching
-    url: teaching/
+  - name: Etc
+    url: Etc/
     weight: 40
-  - name: Active
-    url: active/
-    weight: 20
+  # - name: Teaching
+  #   url: teaching/
+  #   weight: 40
