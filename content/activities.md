@@ -10,17 +10,17 @@ design:
 
 # Page sections
 sections:
-  - block: collection
-    content:
-      title: 활동
-      username: admin
-    design:
-      view: community/littlecard
-      columns: 2
-  - block: resume-awards
-    content:
-      title: Awards
-      username: admin
-    design:
-      view: card
+  # - block: collection
+  #   content:
+  #     title: 활동
+  #     username: admin
+  #   design:
+  #     view: community/littlecard
+  #     columns: 2
+  # - block: resume-awards
+  #   content:
+  #     title: Awards
+  #     username: admin
+  #   design:
+  #     view: card
 ---
