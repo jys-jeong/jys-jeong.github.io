@@ -1,13 +1,13 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
+title: 제1대 컴퓨터인공지능학부 학생회장
+summary: 2022.12.01 ~ 2023.11.31
+date:
 type: docs
 math: false
 tags:
   - Python
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: "Embed rich media such as videos and LaTeX math"
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
@@ -111,7 +111,6 @@ $$
 ## Code
 
 Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
 
     ```python
     import pandas as pd
