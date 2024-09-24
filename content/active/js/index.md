@@ -1,11 +1,13 @@
 ---
-title: Neural Networks and Deep Learning
-url: https://www.coursera.org/learn/neural-networks-deep-learning
-date: "2023-11-25"
-awarder: Coursera
-icon: coursera
-summary: |
-  I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+title: Learn JavaScript
+summary: Easily learn JavaScript in 10 minutes!
+date: 2023-10-24
+type: docs
+math: false
+tags:
+  - JavaScript
+image:
+  caption: "Embed rich media such as videos and LaTeX math"
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.

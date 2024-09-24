@@ -13,20 +13,13 @@ sections:
   - block: collection
     id: active
     content:
-      title: Teaching
+      title: 활동
       filters:
         folders:
           - active
     design:
       view: community/card
 
-  - block: collection
-    content:
-      title: 활동
-      username: admin
-    design:
-      view: community/littlecard
-      columns: 2
   - block: resume-awards
     content:
       title: Awards
