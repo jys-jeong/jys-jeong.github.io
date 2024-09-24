@@ -18,6 +18,7 @@ sections:
         folders:
           - active
     design:
+      view: card
       columns: 2
   - block: collection
     content:
