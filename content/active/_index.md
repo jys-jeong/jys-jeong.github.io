@@ -18,7 +18,7 @@ sections:
         folders:
           - active
     design:
-      view: community/littlecard
+      view: community/card
 
   - block: collection
     content:
