@@ -11,18 +11,19 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: activities
     content:
       title: Teaching
       filters:
         folders:
-          - teaching
+          - activities
     design:
       view: article-grid
       columns: 2
   - block: collection
     content:
       title: 활동
+      username: admin
     design:
       view: community/littlecard
       columns: 2
