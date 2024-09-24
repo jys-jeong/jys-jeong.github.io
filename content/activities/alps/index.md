@@ -1,11 +1,11 @@
 ---
-title: 제1대 컴퓨터인공지능학부 학생회장
-summary: 2022.12.01 ~ 2023.11.31
+title: ALPS
+summary: 2022.03.01 ~ present
 date: ""
 type: docs
 math: false
 tags:
-  - 제1대 컴퓨터인공지능학부 학생회장
+  - Python
 image:
   caption: "Embed rich media such as videos and LaTeX math"
 ---
