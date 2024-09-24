@@ -13,6 +13,7 @@ sections:
   - block: collection
     content:
       title: 활동
+      username: admin
     design:
       view: community/littlecard
       columns: 2
