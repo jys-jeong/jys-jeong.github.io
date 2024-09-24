@@ -11,14 +11,10 @@ design:
 # Page sections
 sections:
   - block: collection
-    id: teaching
     content:
-      title: Teaching
-      filters:
-        folders:
-          - teaching
+      title: 활동
     design:
-      view: article-grid
+      view: community/littlecard
       columns: 2
   - block: resume-awards
     content:

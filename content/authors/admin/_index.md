@@ -92,6 +92,18 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+
+activites:
+  title: Learn Python
+  summary: Easily learn Python in 10 minutes!
+  date: 2023-10-24
+  type: docs
+  math: false
+  tags:
+    - Python
+  image:
+    caption: "Embed rich media such as videos and LaTeX math"
+
 awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
