@@ -1,6 +1,6 @@
 ---
 title: 정보처리기사
-summary: ""
+summary: " "
 date: 2024-09-10
 
 # Featured image
@@ -11,7 +11,10 @@ image:
 authors:
   - admin
 
-tags: ""
+tags:
+  - Academic
+  - Hugo Blox
+  - Markdown
 ---
 
 Welcome 👋
