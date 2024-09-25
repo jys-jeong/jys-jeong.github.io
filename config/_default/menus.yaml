@@ -33,7 +33,7 @@ main:
     url: projects/
     weight: 30
   - name: Etc
-    url: Etc/
+    url: etc/
     weight: 40
   # - name: Teaching
   #   url: teaching/
