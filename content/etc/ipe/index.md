@@ -18,7 +18,9 @@ tags:
   - Markdown
 ---
 
-Welcome 👋
+2024년도 2회 정보처리기사 시험을 치루고 9월 10일에 자격증을 취득했습니다.
+
+<!-- Welcome 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
@@ -83,4 +85,4 @@ Hugo Blox and its templates come with **automatic day (light) and night (dark) m
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license. -->
