@@ -9,10 +9,10 @@ sections:
     content:
       title: Contact
       text: ""
-      email: ksl(at)jbnu.ac.kr
-      phone: +82-63-270-2406
+      email: cuzl159(at)jbnu.ac.kr
+      phone: +82 010-7696-5061
       address:
-        street: 전북대학교 공과대학 7호관 626호
+        street: 전북대학교 새빛1관 311호
         city: 전주시
         region: 전라북도
         postcode: "54896"
