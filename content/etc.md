@@ -63,6 +63,7 @@ sections:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
+      view: card
       columns: "1"
   - block: markdown
     content:
