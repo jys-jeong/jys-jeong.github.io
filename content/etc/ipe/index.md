@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사
+title: 🎉 Easily create your own simple yet highly customizable blog
 summary: 2024-09
 date: 2024-09-10
 
