@@ -6,57 +6,85 @@ your block layout below */}} {{/* Styles can be added to the CSS file */}} {{/*
 Access custom front matter options via $block.content */}} {{/* E.g. a field
 named `text` via $block.content.text */}}
 
-<div
-  class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center"
->
-  <!-- Title -->
-  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    {{ $block.content.title | emojify | $page.RenderString }}
+<section id="section-contact" class="home-section wg-contact">
+  <div class="home-section-bg"></div>
+  <div class="container">
+    <div class="row">
+      <!-- Title Section -->
+      <div
+        class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"
+      >
+        <h1 class="mb-0">{{ $block.content.title }}</h1>
+      </div>
+      <div class="col-12">
+        <!-- Text Description -->
+        <p>
+          <br /><span style="font-size: 95%"
+            >{{ $block.content.text | $page.RenderString }}</span
+          ><br />
+        </p>
+
+        <!-- Contact Information List -->
+        <ul class="fa-ul">
+          <!-- Email -->
+          <li>
+            <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+            <span id="person-email">
+              <a href="mailto:{{ $block.content.email | plainify }}"
+                >{{ $block.content.email | plainify }}</a
+              >
+            </span>
+          </li>
+
+          <!-- Phone -->
+          <li>
+            <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+            <span id="person-telephone">
+              <a href="tel:{{ $block.content.phone }}"
+                >{{ $block.content.phone }}</a
+              >
+            </span>
+          </li>
+
+          <!-- Address -->
+          <li>
+            <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+            <span id="person-address"
+              >{{ $block.content.address.street }}, {{
+              $block.content.address.city }}, {{ $block.content.address.region
+              }} {{ $block.content.address.postcode }}</span
+            >
+          </li>
+        </ul>
+
+        <!-- Map Section (Leaflet Map) -->
+        <div class="d-none">
+          <input id="map-provider" value="mapnik" />
+          <input
+            id="map-lat"
+            value="{{ $block.content.coordinates.latitude }}"
+          />
+          <input
+            id="map-lng"
+            value="{{ $block.content.coordinates.longitude }}"
+          />
+          <input
+            id="map-dir"
+            value="{{ $block.content.address.street }}, {{ $block.content.address.city }}, {{ $block.content.address.region }} {{ $block.content.address.postcode }}"
+          />
+          <input id="map-zoom" value="15" />
+          <input id="map-api-key" value="" />
+        </div>
+
+        <div
+          id="map"
+          class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+          tabindex="0"
+          style="position: relative"
+        >
+          <!-- Here the Leaflet map will be rendered -->
+        </div>
+      </div>
+    </div>
   </div>
-
-  <!-- Text -->
-  {{ with $block.content.text }}
-  <p class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">
-    {{ . | $page.RenderString }}
-  </p>
-  {{ end }}
-
-  <!-- Contact Information -->
-  <div class="prose prose-slate dark:prose-invert max-w-prose text-center">
-    {{ if $block.content.autolink }}
-    <p>
-      <strong>Email:</strong>
-      <a href="mailto:{{ $block.content.email }}">{{ $block.content.email }}</a>
-    </p>
-    <p>
-      <strong>Phone:</strong>
-      <a href="tel:{{ $block.content.phone }}">{{ $block.content.phone }}</a>
-    </p>
-    {{ else }}
-    <p><strong>Email:</strong> {{ $block.content.email }}</p>
-    <p><strong>Phone:</strong> {{ $block.content.phone }}</p>
-    {{ end }}
-
-    <p>
-      <strong>Address:</strong> <br />
-      {{ $block.content.address.street }} <br />
-      {{ $block.content.address.city }}, {{ $block.content.address.region }}
-      <br />
-      {{ $block.content.address.postcode }} <br />
-      {{ $block.content.address.country }}
-    </p>
-
-    <!-- Coordinates (Latitude/Longitude) -->
-    {{ with $block.content.coordinates }}
-    <p>
-      <strong>Coordinates:</strong> <br />
-      Latitude: {{ .latitude }}, Longitude: {{ .longitude }}
-    </p>
-    {{ end }}
-
-    <!-- Directions (if any) -->
-    {{ with $block.content.directions }}
-    <p><strong>Directions:</strong> {{ . }}</p>
-    {{ end }}
-  </div>
-</div>
+</section>
