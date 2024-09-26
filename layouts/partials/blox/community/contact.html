@@ -33,7 +33,6 @@
 }
 
 .center-list li {
-  text-align: center;
   margin-bottom: 1.5rem;
 }
 </style>
@@ -46,7 +45,7 @@
   
     {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
-<div class="flex flex-col max-w-prose mx-auto gap-3 justify-center text-3xl">
+<div class="flex flex-col max-w-prose mx-auto gap-3 justify-center">
   <ul class="fa-ul center-list">
 
     {{ if $data.email }}
