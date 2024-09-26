@@ -10,12 +10,10 @@ image:
 
 authors:
   - admin
-  - Ted
-
-tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+# tags:
+#   - Academic
+#   - Hugo Blox
+#   - Markdown
 ---
 
 2024년도 2회 정보처리기사 시험을 치루고 9월 10일에 자격증을 취득했습니다.
