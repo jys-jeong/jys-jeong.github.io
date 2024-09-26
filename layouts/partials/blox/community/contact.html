@@ -25,7 +25,17 @@
 {{ if and $use_formspree_form $use_formspree_captcha }}
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 {{ end }}
-
+<style>
+  .center-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .center-list li {
+    text-align: center;
+  }
+</style>
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
@@ -36,7 +46,7 @@
     {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
 <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-  <ul class="fa-ul">
+  <ul class="fa-ul center-list">
 
     {{ if $data.email }}
     <li>
