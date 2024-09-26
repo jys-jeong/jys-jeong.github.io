@@ -27,14 +27,14 @@
 {{ end }}
 <style>
   .center-list {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .center-list li {
-    text-align: center;
-  }
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.center-list li {
+  text-align: center;
+}
 </style>
 
 <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
@@ -45,8 +45,8 @@
   
     {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
-<div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-  <ul class="fa-ul center-list">
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+  <ul class="fa-ul">
 
     {{ if $data.email }}
     <li>
