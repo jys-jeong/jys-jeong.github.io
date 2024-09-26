@@ -26,10 +26,8 @@
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 {{ end }}
 
-<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
-  {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
 
-  <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
 
     <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
       {{ $block.content.title | markdownify | emojify }}
@@ -37,7 +35,7 @@
   
     {{ with $block.content.text }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
 </div>
-
+<div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
   <ul class="fa-ul">
 
     {{ if $data.email }}
@@ -116,7 +114,7 @@
     {{ end }}
 
   </ul>
-
+</div>
   {{ if and site.Params.features.map.provider $data.coordinates.latitude }}
   <div class="d-none">
     <input id="map-provider" value="{{ lower site.Params.features.map.provider }}">
