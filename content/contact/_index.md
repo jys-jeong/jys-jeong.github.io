@@ -19,8 +19,8 @@ sections:
         country: 대한민국
         country_code: KO
       coordinates:
-        latitude: "37.4275"
-        longitude: "-122.1697"
+        latitude: "35.851786"
+        longitude: "127.128730"
       directions:
       #contact_links:
       #  - icon: comments
