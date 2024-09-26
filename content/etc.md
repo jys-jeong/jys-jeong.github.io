@@ -21,6 +21,6 @@ sections:
           - etc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: community/etccard
       # Reduce spacing
 ---
