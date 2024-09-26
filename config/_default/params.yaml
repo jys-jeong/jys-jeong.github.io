@@ -59,6 +59,6 @@ features:
   privacy_pack:
     enable: false
   map:
-    provider: "mapnik"
+    provider: "google"
     api_key: ""
     zoom: 15
