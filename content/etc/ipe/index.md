@@ -4,6 +4,7 @@ summary: ""
 date: 2024-09-10
 
 type: docs
+math: false
 ---
 
 Welcome 👋
