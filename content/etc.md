@@ -11,16 +11,11 @@ design:
 # Page sections
 sections:
   - block: collection
-    id: news
+    id: certifications
     content:
       title: 자격증
-      subtitle: ""
-      text: ""
-      # Page type to display. E.g. post, talk, publication...
-      page_type: etc
-      # Choose how many pages you would like to display (0 = all pages)
+
       count: 5
-      # Filter on criteria
       filters:
         folders:
           - etc
