@@ -2,7 +2,7 @@
 {{ $page := .page }}
 {{ $summary := $item.Params.summary | default $item.Params.description | default $item.Summary }}
 {{ $summary =  $summary | page.RenderString }}
-<article class="md:grid md:grid-cols-4 md:items-baseline">
+<article class="md:grid  md:items-baseline">
   <div class="md:col-span-3 group relative flex flex-col items-start">
     <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
       <div
