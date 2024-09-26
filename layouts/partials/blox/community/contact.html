@@ -30,33 +30,39 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const provider = document.getElementById('map-provider').value;
-    const lat = parseFloat(document.getElementById('map-lat').value);
-    const lng = parseFloat(document.getElementById('map-lng').value);
-    const zoom = parseInt(document.getElementById('map-zoom').value);
-
-    // Leaflet 사용 예시
-    if (provider === "leaflet") {
-      const map = L.map('map').setView([lat, lng], zoom);
-
-      // OpenStreetMap 타일 레이어 추가
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap'
-      }).addTo(map);
-
-      // 마커 추가
-      L.marker([lat, lng]).addTo(map)
-        .bindPopup("{{ $addr_formatted }}")
-        .openPopup();
-    }
-
-    // 다른 제공업체에 대한 조건 추가 (예: Google Maps 등)
-    if (provider === "google") {
-      // Google Maps API 사용 설정
-      // Google Maps 초기화 코드 추가
-    }
-  });
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+  
+      if (map_provider === 'google') {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT',
+          },
+          streetViewControl: false,
+          mapTypeControl: false,
+          gestureHandling: 'cooperative',
+        });
+  
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function () {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng + '/';
+            window.open(url, '_blank');
+          },
+          title: address,
+        });
 </script>
 <style>
   .center-list {
