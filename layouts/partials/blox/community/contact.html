@@ -21,10 +21,43 @@
 <head>
     <!-- Other head content -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  </head>
+</head>
 {{ if and $use_formspree_form $use_formspree_captcha }}
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 {{ end }}
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const provider = document.getElementById('map-provider').value;
+    const lat = parseFloat(document.getElementById('map-lat').value);
+    const lng = parseFloat(document.getElementById('map-lng').value);
+    const zoom = parseInt(document.getElementById('map-zoom').value);
+
+    // Leaflet 사용 예시
+    if (provider === "leaflet") {
+      const map = L.map('map').setView([lat, lng], zoom);
+
+      // OpenStreetMap 타일 레이어 추가
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap'
+      }).addTo(map);
+
+      // 마커 추가
+      L.marker([lat, lng]).addTo(map)
+        .bindPopup("{{ $addr_formatted }}")
+        .openPopup();
+    }
+
+    // 다른 제공업체에 대한 조건 추가 (예: Google Maps 등)
+    if (provider === "google") {
+      // Google Maps API 사용 설정
+      // Google Maps 초기화 코드 추가
+    }
+  });
+</script>
 <style>
   .center-list {
   list-style-type: none;
@@ -142,4 +175,3 @@
   {{ end }}
 
 </div>
-<script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
