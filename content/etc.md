@@ -23,7 +23,7 @@ sections:
       # Choose a layout view
       view: community/etccard
       # Reduce spacing
-  - block: contact
+  - block: community/contact
     content:
       title: Contact
       text: |-
