@@ -9,13 +9,54 @@ named `text` via $block.content.text */}}
 <div
   class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center"
 >
+  <!-- Title -->
   <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
-    {{ $title }}
+    {{ $block.content.title | emojify | $page.RenderString }}
   </div>
 
-  {{ with $text }}
+  <!-- Text -->
+  {{ with $block.content.text }}
   <p class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">
-    {{ . }}
+    {{ . | $page.RenderString }}
   </p>
   {{ end }}
+
+  <!-- Contact Information -->
+  <div class="prose prose-slate dark:prose-invert max-w-prose text-center">
+    {{ if $block.content.autolink }}
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:{{ $block.content.email }}">{{ $block.content.email }}</a>
+    </p>
+    <p>
+      <strong>Phone:</strong>
+      <a href="tel:{{ $block.content.phone }}">{{ $block.content.phone }}</a>
+    </p>
+    {{ else }}
+    <p><strong>Email:</strong> {{ $block.content.email }}</p>
+    <p><strong>Phone:</strong> {{ $block.content.phone }}</p>
+    {{ end }}
+
+    <p>
+      <strong>Address:</strong> <br />
+      {{ $block.content.address.street }} <br />
+      {{ $block.content.address.city }}, {{ $block.content.address.region }}
+      <br />
+      {{ $block.content.address.postcode }} <br />
+      {{ $block.content.address.country }}
+    </p>
+
+    <!-- Coordinates (Latitude/Longitude) -->
+    {{ with $block.content.coordinates }}
+    <p>
+      <strong>Coordinates:</strong> <br />
+      Latitude: {{ .latitude }}, Longitude: {{ .longitude }}
+    </p>
+    {{ end }}
+
+    <!-- Directions (if any) -->
+    {{ with $block.content.directions }}
+    <p><strong>Directions:</strong> {{ . }}</p>
+    {{ end }}
+  </div>
 </div>
