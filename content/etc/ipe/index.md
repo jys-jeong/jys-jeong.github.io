@@ -1,6 +1,6 @@
 ---
 title: 정보처리기사
-summary: ""
+summary: "2024년 9월"
 date: 2024-09-10
 
 type: docs
