@@ -1,6 +1,6 @@
 ---
 title: 정보처리기사
-summary: "Take full control of your personal brand and privacy by migrating away from the big tech platforms!"
+summary: ""
 date: 2024-09-10
 
 # Featured image
