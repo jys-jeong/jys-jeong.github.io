@@ -1,6 +1,6 @@
 ---
 title: 정보처리기사
-summary: "     "
+
 date: 2024-09-10
 
 # Featured image
