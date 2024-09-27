@@ -106,7 +106,7 @@ activites:
 
 awards:
   - title: 2022 작품경진대회 우수상
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+
     date: "2023-11-25"
     awarder: Coursera
     icon: coursera
