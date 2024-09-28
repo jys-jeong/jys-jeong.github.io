@@ -115,14 +115,15 @@ awards:
     awarder: edX
     icon: edx
     summary: |
-
+      위 프로젝트 구해줘 룸메의 개발 프레임워크를 변경해서 재개발
   - title: "2024 캡스톤 경진대회 수상"
     certificate_url: https://www.datacamp.com
     date: "2024-06-21"
     awarder: datacamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      2024-1 산학실전캡스톤 2 강의를 수강해서 LX(한국국토정보공사)와 협업해서
+      가로경관 이미지 분석을 주제를 이용한 감성경로 라우팅
 ---
 
 ## About Me
