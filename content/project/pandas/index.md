@@ -1,5 +1,5 @@
 ---
-title: Pandas
+title: 구해줘 룸메
 date: 2023-10-26
 external_link: https://github.com/pandas-dev/pandas
 tags:
@@ -8,6 +8,8 @@ tags:
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+### 개요
 
-<!--more-->
+'구해줘! 룸메'는 Windows 기반 룸메이트 매칭 플랫폼입니다.
+
+MVVM 디자인 패턴을 적용을 중점으로 개발했습니다.
