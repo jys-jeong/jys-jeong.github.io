@@ -1,5 +1,5 @@
 ---
-title: scikit-learn
+title: I Hate PS
 date: 2023-10-26
 
 tags:

@@ -1,5 +1,5 @@
 ---
-title: scikit-learn
+title: 잠깨우기 임베디드 프로젝트
 date: 2023-10-26
 
 tags:
