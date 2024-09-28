@@ -112,15 +112,11 @@ awards:
         - 기숙사 룸메이트 매칭 시스템
   - title: 2023 작품경진대회 우수상
     date: "2023-12-21"
-    awarder: edX
-    icon: edx
     summary: |
       위 프로젝트 구해줘 룸메의 개발 프레임워크를 변경해서 재개발
   - title: "2024 캡스톤 경진대회 수상"
     certificate_url: https://www.datacamp.com
     date: "2024-06-21"
-    awarder: datacamp
-    icon: datacamp
     summary: |
       2024-1 산학실전캡스톤 2 강의를 수강해서 LX(한국국토정보공사)와 협업해서
       가로경관 이미지 분석을 주제를 이용한 감성경로 라우팅
