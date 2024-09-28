@@ -36,6 +36,8 @@ Videos may be added to a page by either placing them in your `assets/media/` med
 
     {{< image src="featured.jpg" controls="yes" >}}
 
+<img src="../../../assets/media/featured.jpg" />
+
 ## Podcast
 
 You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
