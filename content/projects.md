@@ -19,6 +19,5 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 4
-      len: 8
+      columns: 3
 ---
