@@ -109,16 +109,13 @@ awards:
     date: "2022-12-21"
     summary: |
       2022-1 윈도우즈프로그래밍 프로젝트 - 구해줘 룸메
-
+        - 기숙사 룸메이트 매칭 시스템
   - title: 2023 작품경진대회 우수상
     date: "2023-12-21"
     awarder: edX
     icon: edx
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+
   - title: "2024 캡스톤 경진대회 수상"
     certificate_url: https://www.datacamp.com
     date: "2024-06-21"
