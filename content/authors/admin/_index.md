@@ -106,13 +106,12 @@ activites:
 
 awards:
   - title: 2022 작품경진대회 우수상
-    date: "2023-11-25"
-    awarder: Coursera
-    icon: coursera
+    date: "2022-12-21"
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      2022-1 윈도우즈프로그래밍 프로젝트 - 구해줘 룸메
+
   - title: 2023 작품경진대회 우수상
-    date: "2023-07-01"
+    date: "2023-12-21"
     awarder: edX
     icon: edx
     summary: |
@@ -122,7 +121,7 @@ awards:
       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
   - title: "2024 캡스톤 경진대회 수상"
     certificate_url: https://www.datacamp.com
-    date: "2023-01-21"
+    date: "2024-06-21"
     awarder: datacamp
     icon: datacamp
     summary: |
