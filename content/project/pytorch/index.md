@@ -8,6 +8,8 @@ tags:
   - Markdown
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+### 개요
 
-<!--more-->
+'구해줘! 룸메'는 Windows 기반 룸메이트 매칭 플랫폼입니다.
+
+MVVM 디자인 패턴을 적용을 중점으로 개발했습니다.
