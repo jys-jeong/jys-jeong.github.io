@@ -12,6 +12,6 @@ image:
 
 **내용**
 
-{{< figure src="featured.jpg" >}}
+{{< figure src="featured.png" >}}
 
 제 56대 온리 공과대학 선거운동본부 정책참모직을 수행하였습니다.
