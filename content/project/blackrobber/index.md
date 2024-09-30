@@ -12,9 +12,8 @@ tags:
 
 ### 기술
 
-- 개발 환경:
-- 사용 기술:
-- 개발 기간:
+- 사용 기술: {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/amazonwebservices" >}}AWS | {{< icon name="devicon/flask" >}}Flask | {{< icon name="devicon/windows11" >}}Windows | {{< icon name="devicon/docker" >}}Docker | locust(성능테스트)
+- 개발 기간: 2024년 3월 - 2024년 6월
 - 참고 자료: [{{< icon name="hero/document" >}}](BRS.pdf)
 
 ### 기능
