@@ -23,7 +23,7 @@ tags:
 ### 기여한 부분
 
 1. **웹에 이미지 Drag&Drop**
-   {{< figure src="brs1.png" >}}
+   {{< figure src="brs1.jpg" >}}
 2. **RestAPI로 이미지 통신**
    {{< figure src="rest.png" >}}
 3. **CV를 활용한 데이터 수집**
