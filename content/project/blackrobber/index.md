@@ -13,7 +13,7 @@ tags:
 ### 기술
 
 - 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/nodejs" >}}NodeJS | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/amazonwebservices" >}}AWS | {{< icon name="devicon/flask" >}}Flask | {{< icon name="devicon/windows11" >}}Windows | {{< icon name="devicon/docker" >}}Docker | locust(성능테스트)
-- 개발 기간: 2024년 3월 - 2024년 6월
+- 개발 기간: 2024년 3월 - 6월
 - 참고 자료: [{{< icon name="hero/document" >}}](BRS.pdf)
 
 ### 기능
@@ -23,7 +23,8 @@ tags:
 ### 기여한 부분
 
 1. **웹에 이미지 Drag&Drop**
-
+   {{< figure src="brs1.png" >}}
 2. **RestAPI로 이미지 통신**
-
-3. **데이터 수집**
+   {{< figure src="rest.png" >}}
+3. **CV를 활용한 데이터 수집**
+   {{< figure src="data.png" >}}
