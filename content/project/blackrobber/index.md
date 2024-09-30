@@ -12,9 +12,9 @@ tags:
 
 ### 기술
 
-- 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/nodejs" >}}NodeJS | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/amazonwebservices" >}}AWS | {{< icon name="devicon/flask" >}}Flask | {{< icon name="devicon/windows11" >}}Windows | {{< icon name="devicon/docker" >}}Docker | locust(성능테스트)
-- 개발 기간: 2024년 3월 - 6월
-- 참고 자료: [{{< icon name="hero/document" >}}](BRS.pdf)
+- 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/javascript" >}}Javascript | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/django" >}}Django | {{< icon name="devicon/mariadb" >}}mariadb | {{< icon name="devicon/nginix" >}}Nginix | {{< icon name="devicon/uwsgi" >}}uWSGI | {{< icon name="devicon/latex" >}}Latex | {{< icon name="devicon/ubuntu" >}}Ubuntu
+- 개발 기간: 2024년 4월 - Present
+- 참고 자료: [{{< icon name="hero/github" >}}](https://github.com/DMOJ/online-judge?tab=readme-ov-file)
 
 ### 기능
 
