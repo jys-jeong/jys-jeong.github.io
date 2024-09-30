@@ -13,11 +13,13 @@ tags:
 ### 기술
 
 - 사용 기술: {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/opencv" >}}OpenCV | {{< icon name="devicon/raspberrypi" >}}Raspberrypi
-- 개발 기간: 2024년 4월 - 현재
+- 개발 기간: 2024년 3월 - 6월
 
 ### 기능
 
 {{< video src="201911895_정예성.mp4" controls="yes" >}}
+
+시연 영상 : 1분 30초 ~
 
 ### 기여한 부분(프론트 엔드)
 

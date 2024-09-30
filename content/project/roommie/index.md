@@ -12,9 +12,9 @@ tags:
 
 ### 기술
 
-- 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/javascript" >}}Javascript | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/django" >}}Django | {{< icon name="devicon/mariadb" >}}mariadb | {{< icon name="devicon/nginx" >}}Nginx | {{< icon name="devicon/uwsgi" >}}uWSGI | {{< icon name="devicon/latex" >}}Latex | {{< icon name="devicon/ubuntu" >}}Ubuntu
-- 개발 기간: 2024년 4월 - 현재
-- 참고 자료: [{{< icon name="devicon/github" >}}](https://github.com/DMOJ/online-judge?tab=readme-ov-file)
+- 사용 기술: {{< icon name="devicon/dart" >}}Dart | {{< icon name="devicon/flutter" >}}Flutter | {{< icon name="devicon/firebase" >}}Firebase | {{< icon name="devicon/android" >}}Android | IOS
+- 개발 기간: 2023년 1월 - 2024년 2월
+- 참고 자료: [{{< icon name="devicon/github" >}}](https://github.com/jys-jeong/Roomie-v2)
 
 ### 기능
 
