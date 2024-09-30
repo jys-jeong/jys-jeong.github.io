@@ -15,7 +15,7 @@ tags:
 - 개발 환경:
 - 사용 기술:
 - 개발 기간:
-- 참고 자료: (BRS.pdf)
+- 참고 자료: [{{< icon name="hero/document" >}}](BRS.pdf)
 
 ### 기능
 
