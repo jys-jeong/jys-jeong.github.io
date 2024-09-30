@@ -1,5 +1,5 @@
 ---
-title: 잠깨우기 임베디드 프로젝트
+title: OpenCV를 활용한 졸음 감지 시스템
 date: 2023-10-26
 
 tags:
@@ -8,8 +8,18 @@ tags:
   - Markdown
 ---
 
-### 개요
+임베디드 시스템 프로젝트에서 개인 프로젝트로 라즈베리파이를 이용해서 공부중 졸고 있을 때 깨워주는 시스템
 
-'구해줘! 룸메'는 Windows 기반 룸메이트 매칭 플랫폼입니다.
+### 기술
 
-MVVM 디자인 패턴을 적용을 중점으로 개발했습니다.
+- 사용 기술: {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/opencv" >}}OpenCV | {{< icon name="devicon/raspberrypi" >}}Raspberrypi
+- 개발 기간: 2024년 4월 - 현재
+
+### 기능
+
+{{< video src="201911895_정예성.mp4" controls="yes" >}}
+
+### 기여한 부분(프론트 엔드)
+
+1. **OpenCV를 활용하여 졸음을 감지하는 코드**
+2. **라즈베리파이 회로 구성**
