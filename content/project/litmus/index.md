@@ -13,15 +13,24 @@ tags:
 
 ### 기술
 
-- 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/javascript" >}}Javascript | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/django" >}}Django | {{< icon name="devicon/mariadb" >}}mariadb | {{< icon name="devicon/nginix" >}}Nginix | {{< icon name="devicon/uwsgi" >}}uWSGI | {{< icon name="devicon/latex" >}}Latex | {{< icon name="devicon/ubuntu" >}}Ubuntu
+- 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/javascript" >}}Javascript | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/django" >}}Django | {{< icon name="devicon/mariadb" >}}mariadb | {{< icon name="devicon/nginx" >}}Nginx | {{< icon name="devicon/uwsgi" >}}uWSGI | {{< icon name="devicon/latex" >}}Latex | {{< icon name="devicon/ubuntu" >}}Ubuntu
 - 개발 기간: 2024년 4월 - 현재
-- 참고 자료: [{{< icon name="hero/github" >}}](https://github.com/DMOJ/online-judge?tab=readme-ov-file)
+- 참고 자료: [{{< icon name="devicon/github" >}}](https://github.com/DMOJ/online-judge?tab=readme-ov-file)
 
 ### 기능
 
 - 회원가입
+- 이메일 인증
 - 로그인
--
+- 아이디 찾기
+- 비밀번호 초기화
+- 과제 등록/삭제/수정
+- 문제 등록/삭제/수정
+- 순위
+- 문제 목록
+- 관리자 모드
+- 컴파일
+- 테스트케이스 등록/수정
 
 ### 기여한 부분
 
