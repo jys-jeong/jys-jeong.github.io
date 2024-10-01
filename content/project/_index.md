@@ -9,7 +9,7 @@ design:
 
 # Page sections
 sections:
-  - block: community/collection
+  - block: collection
     content:
       title: Projects
       filters:
