@@ -8,25 +8,20 @@ tags:
   - Markdown
 ---
 
-WPF 프레임워크를 사용해서 MVVM 패턴을 적용한 기숙사 룸메이트 매칭 시스템.
+- 산학실전캡스톤 강의 중 LX 한국국토정보공사와 산학 협력함
+- 딥러닝 기반 감성 경로 라우팅
 
 ### 기술
 
-- 사용 기술: {{< icon name="devicon/windows8" >}} Window | {{< icon name="devicon/csharp" >}}C# | {{< icon name="devicon/microsoftsqlserver" >}}SQL
+- 사용 기술: {{< icon name="devicon/python" >}} Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/javascript" >}} Javascript | {{< icon name="devicon/lua" >}} Lua | {{< icon name="devicon/windows11" >}} Windows | {{< icon name="devicon/docker" >}} Docker
 - 개발 기간: 2022년 3월 - 2022년 6월
-- 참고 자료: [{{< icon name="hero/document" >}}](FindRoommate_Report.pdf)
+- 참고 자료: [{{< icon name="hero/document" >}}](report.pdf)
 
 ### 기능
 
-- 회원가입
-- 이메일 인증
-- 로그인
-- 개인정보 공개/비공개
-- 생활패턴 및 성향 파악 설문조사
-- 사용자 검색 / 필터링 검색
-- 순위
-- 채팅
+Beautiful, Safety, Lively중 선택한 감성의 경로를 딥러닝 모델을 활용해서 라우팅해서 지도에 출력함
 
 ### 기여한 부분
 
-**프로젝트 전체 기여함**
+1. **전주 범위 내의 구글 클라우드를 활용해서 가로경관 이미지 데이터 수집**
+2. **라우팅 알고리즘 분석**
