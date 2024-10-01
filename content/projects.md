@@ -15,7 +15,7 @@ sections:
       filters:
         folders:
           - project
-      items_coun: 8
+      items_count: 8
     design:
       view: community/custom_card
       fill_image: false
