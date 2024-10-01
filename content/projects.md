@@ -17,7 +17,7 @@ sections:
         folders:
           - project
     design:
-      view: article-grid
+      view: community/custom_card
       fill_image: false
       columns: 3
 ---
