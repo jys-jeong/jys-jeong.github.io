@@ -22,7 +22,7 @@ tags:
 - 문제 풀이 중 사용 가능한 타이머 추가
 - 난이도에 맞는 문제 랜덤으로 제공
 
-### 기여한 부분(프론트 엔드)
+### 기여한 부분
 
 **난이도에 맞는 문제 랜덤으로 제공 [코드](https://github.com/I-Hate-PS/boj-extended/blob/dev/src/js/features/defence.js)**
 

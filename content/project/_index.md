@@ -11,6 +11,7 @@ design:
 sections:
   - block: community/collection
     content:
+      title: Projects
       filters:
         folders:
           - project
