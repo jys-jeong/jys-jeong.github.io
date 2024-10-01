@@ -25,7 +25,7 @@ Beautiful, Safety, Lively중 선택한 감성의 경로를 딥러닝 모델을 �
 
 1. **가로경관 이미지 데이터 수집**
 
-- Google Cloud를 활용해서 Google map의 가로경관 각 지점에서 90도씩 회전해서 데이터 수집
+- Google Cloud를 활용해서 Google map의 가로경관 각 지점에서 0도, 90도, 180도, 270도 이미지 데이터 수집
 
 2. **라우팅 알고리즘 분석**
 
