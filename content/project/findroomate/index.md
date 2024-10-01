@@ -1,6 +1,6 @@
 ---
 title: 구해줘 룸메
-date: 2023-10-26
+summary: 2022년 3월 - 2022년 6월
 
 tags:
   - Hugo

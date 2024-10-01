@@ -1,6 +1,6 @@
 ---
 title: OpenCV를 활용한 졸음 감지 시스템
-date: 2023-10-26
+summary: 2024년 3월 - 6월
 
 tags:
   - Hugo

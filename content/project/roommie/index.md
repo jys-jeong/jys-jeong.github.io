@@ -1,6 +1,6 @@
 ---
 title: Roomie
-date: 2023-10-26
+summary: 2023년 1월 - 2024년 2월
 
 tags:
   - Hugo
