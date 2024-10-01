@@ -14,7 +14,7 @@ WPF 프레임워크를 사용해서 MVVM 패턴을 적용한 기숙사 룸메이
 
 - 사용 기술: {{< icon name="devicon/windows8" >}} Window | {{< icon name="devicon/csharp" >}}C# | {{< icon name="devicon/microsoftsqlserver" >}}SQL
 - 개발 기간: 2022년 3월 - 2022년 6월
-- 참고 자료: [{{< icon name="hero/document" >}} FindRoommate_Report.pdf 다운로드](../../../static/uploads/FindRoommate_Report.pdf)
+- 참고 자료: [{{< icon name="hero/document" >}}](FindRoommate_Report.pdf)
 
 ### 기능
 
