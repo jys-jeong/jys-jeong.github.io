@@ -30,7 +30,7 @@ main:
     url: activities/
     weight: 20
   - name: Projects
-    url: project/
+    url: projects/
     weight: 30
   - name: Etc
     url: etc/
