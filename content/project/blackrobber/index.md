@@ -14,7 +14,7 @@ tags:
 
 - 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/nodejs" >}}NodeJS | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/amazonwebservices" >}}AWS | {{< icon name="devicon/flask" >}}Flask | {{< icon name="devicon/windows11" >}}Windows | {{< icon name="devicon/docker" >}}Docker | {{< icon name="devicon/opencv" >}}OpenCV | locust(성능테스트)
 - 개발 기간: 2024년 9월 - 12월
-- 참고 자료: [{{< icon name="hero/document" >}}](BRS.pdf)
+- 참고 자료: <a href="/uploads/BRS.pdf" download>{{< icon name="hero/document" >}}</a>
 
 ### 기능
 
