@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: JBNU Student
+role: 전북대학교 컴퓨터공학부
 
 # Organizations/Affiliations to display in Biography blox
 # organizations:
