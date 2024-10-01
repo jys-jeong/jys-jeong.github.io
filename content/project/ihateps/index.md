@@ -8,7 +8,7 @@ tags:
   - Markdown
 ---
 
-오픈소스 boj-extended(https://github.com/joonas-yoon/boj-extended)를 Customize해서 Merge시도
+오픈소스 boj-extended[https://github.com/joonas-yoon/boj-extended]를 Customize해서 Merge시도
 
 ### 기술
 
@@ -24,7 +24,7 @@ tags:
 
 ### 기여한 부분(프론트 엔드)
 
-**난이도에 맞는 문제 랜덤으로 제공(https://github.com/I-Hate-PS/boj-extended/blob/dev/src/js/features/defence.js)**
+**난이도에 맞는 문제 랜덤으로 제공[https://github.com/I-Hate-PS/boj-extended/blob/dev/src/js/features/defence.js]**
 
 - 백준 사이트에 검색 아이콘 추가
 - 버튼 클릭 시 난이도 선택
