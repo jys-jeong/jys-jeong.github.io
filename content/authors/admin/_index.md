@@ -115,7 +115,7 @@ awards:
     summary: |
       위 프로젝트 구해줘 룸메의 개발 프레임워크를 변경해서 재개발
   - title: "2024 캡스톤 경진대회 우수상"
-    certificate_url: <a href="/uploads/garo.jpg" download>{{< icon name="hero/document" >}}</a>
+    certificate_url: "<a href="/uploads/garo.jpg" download>{{< icon name="hero/document" >}}</a>"
     date: "2024-06-21"
     summary: |
       2024-1 산학실전캡스톤 2 강의를 수강해서 LX(한국국토정보공사)와 협업해서
