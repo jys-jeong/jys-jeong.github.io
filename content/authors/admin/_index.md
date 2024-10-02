@@ -106,11 +106,13 @@ activites:
 
 awards:
   - title: 2022 작품경진대회 동상
+    certificate_url: "/uploads/find.pdf"
     date: "2022-12-09"
     summary: |
       2022-1 윈도우즈프로그래밍 프로젝트 - 구해줘 룸메
         - 기숙사 룸메이트 매칭 시스템
   - title: 2023 작품경진대회 동상
+    certificate_url: "/uploads/roomie.jpg"
     date: "2023-12-21"
     summary: |
       위 프로젝트 구해줘 룸메의 개발 프레임워크를 변경해서 재개발
