@@ -7,8 +7,8 @@ $block.content.username | default "admin" }} {{ $person_page_path := (printf
 {{ if not $person_page }} {{ errorf "Could not find an author page at `%s`.
 Please check the value of `author` in your Skill block and create an associated
 author page if one does not already exist. See
-https://docs.hugoblox.com/page-builder/#about " $person_page_path }} {{end}} {{
-$awards := $person_page.Params.awards }}
+https://docs.hugoblox.com/page-builder/#about " $person_page_path }} {{ end }}
+{{ $awards := $person_page.Params.awards }}
 
 <div
   class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center"
@@ -31,29 +31,30 @@ $awards := $person_page.Params.awards }}
         {{ partial "functions/get_icon" (dict "name" $icon "pack" "brands"
         "attributes" "style=\"height: 100%;\"") }}
       </div>
-      {{ end}} {{with .url}}<a href="{{.}}" target="_blank" rel="noopener"
-        >{{end}}
+      {{ end }} {{ with .url }}
+      <a href="{{ . }}" target="_blank" rel="noopener">
+        {{ end }}
         <h5
           class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"
         >
-          {{.title | markdownify | emojify}}
+          {{ .title | markdownify | emojify }}
         </h5>
-        {{with .url}}</a
-      >{{end}}
+        {{ with .url }}</a
+      >{{ end }}
 
       <div
         class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300"
       >
-        {{.awarder}} &#8729; {{ if .date}} {{ (time .date) | time.Format
-        ($block.design.date_format | default "January 2006") }} {{else}} {{ i18n
-        "present" | default "Present" }} {{end}}
+        {{ .awarder }} &#8729; {{ if .date }} {{ (time .date) | time.Format
+        ($block.design.date_format | default "January 2006") }} {{ else }} {{
+        i18n "present" | default "Present" }} {{ end }}
       </div>
 
-      {{with .summary}}
+      {{ with .summary }}
       <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose">
-        {{. | markdownify | emojify}}
+        {{ . | markdownify | emojify }}
       </div>
-      {{end}} {{ with .certificate_url }}
+      {{ end }} {{ with .certificate_url }}
       <a
         href="/uploads/garo.jpg"
         download
@@ -77,6 +78,6 @@ $awards := $person_page.Params.awards }}
       </a>
       {{ end }}
     </div>
-    {{end}} {{end}}
+    {{ end }} {{ end }}
   </div>
 </div>
