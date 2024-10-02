@@ -55,11 +55,10 @@ $awards := $person_page.Params.awards }}
       </div>
       {{end}} {{ with .certificate_url }}
       <a
-        href="{{.}}"
+        href="{{ . }}"
         download
         class="inline-flex items-center text-primary-600 dark:text-primary-300 hover:underline"
       >
-        <!-- Instead of using the Hugo icon shortcode, let's use a plain HTML icon -->
         <svg
           class="w-4 h-4"
           xmlns="http://www.w3.org/2000/svg"
