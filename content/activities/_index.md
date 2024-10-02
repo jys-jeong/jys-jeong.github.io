@@ -20,7 +20,7 @@ sections:
     design:
       view: community/card
 
-  - block: resume-awards
+  - block: community/custom_resume-awards
     content:
       title: Awards
       username: admin
