@@ -68,7 +68,8 @@ skills:
       - name: 스포츠
         description: ""
         percent: 60
-        icon: person-simple-walk
+        icon_pack: "fa-solid"
+        icon: futbol
       - name: 영상 시청
         description: ""
         percent: 100
