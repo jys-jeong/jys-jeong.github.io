@@ -45,7 +45,7 @@
 
       {{ with .icon }}
       <span class="skills-icon inline-block">
-        {{ partial "functions/get_icon" (dict "name" . "attributes" "style=\"height: 1em;\"")  }}
+        <i class="{{ $pack }} fa-{{ . }}"></i>  <!-- Correct FontAwesome class -->
       </span>
       {{ end }}
 
