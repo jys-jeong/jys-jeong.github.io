@@ -76,7 +76,7 @@ sections:
           align: center
           background:
             image:
-              filename: footbal.jpg
+              filename: football.jpg
               filters:
                 brightness: 0.4
             position: center
