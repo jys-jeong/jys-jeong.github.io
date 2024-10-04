@@ -1,28 +1,4 @@
-/* Default styles for light mode */
-button {
-  background-color: #4caf50; /* Default light mode color */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition */
-}
-
-/* Hover effect in light mode */
+/* Hover effect for the button */
 button:hover {
-  background-color: #45a049; /* Light mode hover color */
-}
-
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-  button {
-    background-color: #333; /* Default dark mode color */
-    color: white;
-  }
-
-  /* Hover effect in dark mode */
-  button:hover {
-    background-color: #555; /* Dark mode hover color */
-  }
+  background-color: rgb(13, 43, 179); /* Color on hover */
 }
