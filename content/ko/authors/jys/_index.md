@@ -39,9 +39,10 @@ profiles:
     url: https://github.com/jys-jeong
 
 interests:
-  - 웹
-  - 애플리케이션
-  - 데이터
+  - 웹 개발
+  - 앱 개발
+  - 신체 역학
+  - 운동 역학
 
 # education:
 #   - area: PhD Artificial Intelligence
