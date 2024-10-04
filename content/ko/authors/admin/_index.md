@@ -74,14 +74,17 @@ skills:
         description: ""
         percent: 100
         icon: film
+        icon_pack: "fa-solid"
       - name: 맛집 탐방
         description: ""
         percent: 80
-        icon: building-storefront
+        icon: "store"
+        icon_pack: "fa-solid"
       - name: 노래 듣기
         description: ""
         percent: 80
-        icon: musical-note
+        icon: "music"
+        icon_pack: "fa-solid"
 
 languages:
   - name: Korean
