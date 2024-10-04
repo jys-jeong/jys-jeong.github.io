@@ -29,7 +29,7 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: slider
+  - block: community/slider
     content:
       slides:
         - title: <span style="font-size:70%">Recruit</span>
