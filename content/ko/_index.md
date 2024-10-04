@@ -37,7 +37,7 @@ sections:
           align: center
           background:
             image:
-              filename: /uploads/web.jpg
+              filename: web.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -54,7 +54,7 @@ sections:
           align: center
           background:
             image:
-              filename: /uploads/app.jpg
+              filename: app.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -65,7 +65,7 @@ sections:
           align: center
           background:
             image:
-              filename: /uploads/play.jpg
+              filename: play.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -76,7 +76,7 @@ sections:
           align: center
           background:
             image:
-              filename: /uploads/footbal.jpg
+              filename: footbal.jpg
               filters:
                 brightness: 0.4
             position: center
