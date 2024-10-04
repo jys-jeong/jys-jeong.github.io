@@ -39,8 +39,9 @@ profiles:
     url: https://github.com/jys-jeong
 
 interests:
-  - Web
-  - Application
+  - 웹
+  - 애플리케이션
+  - 데이터
 
 # education:
 #   - area: PhD Artificial Intelligence
