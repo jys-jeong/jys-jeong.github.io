@@ -41,7 +41,7 @@ profiles:
 interests:
   - 웹 개발
   - 앱 개발
-  - 신체 역학
+  - 헬스
   - 운동 역학
 
 # education:

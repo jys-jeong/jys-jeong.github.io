@@ -37,7 +37,7 @@ sections:
           align: center
           background:
             image:
-              filename: recruitment.jpg
+              filename: web.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -54,7 +54,7 @@ sections:
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: app.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -65,7 +65,7 @@ sections:
           align: center
           background:
             image:
-              filename: healthcare.jpg
+              filename: play.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -76,18 +76,7 @@ sections:
           align: center
           background:
             image:
-              filename: mathematics.jpg
-              filters:
-                brightness: 0.4
-            position: center
-            color: "#000"
-
-        - title: <span style="font-size:70%">Development</span>
-          content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
-          align: center
-          background:
-            image:
-              filename: development.jpg
+              filename: footbal.jpg
               filters:
                 brightness: 0.4
             position: center
