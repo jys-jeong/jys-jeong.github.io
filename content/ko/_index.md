@@ -29,7 +29,7 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: resume-skills
+  - block: community/resume-skills
     id: hobbies
     content:
       title: 취미
