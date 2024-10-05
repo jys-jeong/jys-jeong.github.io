@@ -40,8 +40,8 @@ sections:
               filename: web.jpg
               filters:
                 brightness: 0.4
-              position: center
-              color: "#000"
+            position: center
+            color: "#000"
           link:
             icon: user
             icon_pack: fas
@@ -57,8 +57,8 @@ sections:
               filename: app.jpg
               filters:
                 brightness: 0.4
-              position: center
-              color: "#000"
+            position: center
+            color: "#000"
         - title: <span style="font-size:70%">Healthcare</span>
           content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
           align: center
@@ -67,8 +67,8 @@ sections:
               filename: play.jpg
               filters:
                 brightness: 0.4
-              position: center
-              color: "#000"
+            position: center
+            color: "#000"
         - title: <span style="font-size:70%">Mathematics</span>
           content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
           align: center
@@ -77,8 +77,8 @@ sections:
               filename: football.jpg
               filters:
                 brightness: 0.4
-              position: center
-              color: "#000"
+            position: center
+            color: "#000"
 
       design:
         # Slide height is automatic unless you force a specific height (e.g. '400px')
