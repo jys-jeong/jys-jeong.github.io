@@ -25,6 +25,6 @@ sections:
   #     username: admin
   - block: resume-languages
     content:
-      title: Languages
+      title: 언어
       username: admin
 ---
