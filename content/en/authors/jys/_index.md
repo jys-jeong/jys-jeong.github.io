@@ -39,8 +39,10 @@ profiles:
     url: https://github.com/jys-jeong
 
 interests:
-  - Web
-  - Application
+  - 웹 개발
+  - 앱 개발
+  - 헬스
+  - 운동 역학
 
 # education:
 #   - area: PhD Artificial Intelligence
@@ -180,3 +182,11 @@ awards:
 혼자 일하는 것보다 팀과 함께 일하는 것을 좋아합니다. 취미도 팀 스포츠를 하는 것이고, 협업하며 함께 성장하는 과정에서 성취를 느낍니다.
 새로운 기술을 빠르게 학습하고 수용하길 좋아하여 늘 호기심을 갖고 탐색합니다.
 </p>
+
+<strong>목표</strong>
+
+<p>모든 일에 열심히 하는 것.</p>
+
+<strong>진로</strong>
+
+<p>프론트엔드 or 공기업 -> 프리랜서</p>

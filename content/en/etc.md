@@ -21,6 +21,6 @@ sections:
           - etc
     design:
       # Choose a layout view
-      view: community/etccard
+      view: community/custom_etccard
       # Reduce spacing
 ---

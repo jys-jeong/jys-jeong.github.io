@@ -7,7 +7,13 @@ type: landing
 design:
   # Default section spacing
   spacing: "6rem"
+css:
+  - "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 
+js:
+  - "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  - "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  - "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 sections:
   - block: resume-biography-3
     content:
@@ -29,7 +35,63 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: resume-skills
+  - block: slider
+    content:
+      slides:
+        - title: <span style="font-size:70%">웹 개발</span>
+          content:
+          align: center
+          background:
+            image:
+              filename: web.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: "#fff"
+
+        - title: <span style="font-size:70%">앱 개발</span>
+          content:
+          align: center
+          background:
+            image:
+              filename: app.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: "#fff"
+
+        - title: <span style="font-size:70%">헬스</span>
+          content:
+          align: center
+          background:
+            image:
+              filename: play.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: "#fff"
+        - title: <span style="font-size:70%">운동 역학</span>
+          content:
+          align: center
+          background:
+            image:
+              filename: football.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: "#fff"
+
+      design:
+        # Slide height is automatic unless you force a specific height (e.g. '400px')
+        slide_height: 350px
+
+        is_fullscreen: false
+        # Automatically transition through slides?
+        loop: true
+        # Duration of transition between slides (in ms)
+        interval: 3000
+
+  - block: community/resume-skills
     id: hobbies
     content:
       title: 취미
