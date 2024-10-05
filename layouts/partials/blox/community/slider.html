@@ -20,7 +20,7 @@
 <!-- Carousel slides wrapper -->
 <div class="carousel-inner">
   {{ range $index, $item := $block.content.slides }}
-  
+
     {{ $style_bg := "" }}
     {{ $style_filter := "" }}
 
@@ -28,7 +28,7 @@
       {{ $style_bg = printf "%s height: %s;" $style_bg . }}
     {{end}}
 
-    {{ $bg := $item.background }}
+    {{ $bg := $item.background}}
     {{ with $bg.color }}
       {{ $style_bg = printf "%s background-color: %s;" $style_bg (. | default "transparent") }}
     {{ end }}
@@ -48,11 +48,12 @@
       {{ with $bg.image.filters.brightness }}
         {{ $style_filter = printf "%s-webkit-backdrop-filter: brightness(%s); backdrop-filter: brightness(%s);" $style_filter (string .) (string .) }}
       {{ end }}
-    {{ end }}
+   {{ end }}
 
-    <div class="carousel-item{{if eq $index 0}} active{{end}} {{with $block.design.is_fullscreen}}fullscreen{{end}}" style="{{$style_bg | safeCSS}}">
-      <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="{{$style_filter | safeCSS}}">
-        <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: {{$item.align | default "left"}};">
+  <div class="carousel-item{{if eq $index 0}} active{{end}} {{with $block.design.is_fullscreen}}fullscreen{{end}}" style="{{$style_bg | safeCSS}}">
+    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="{{$style_filter | safeCSS}}">
+      {{/* To prevent control overlap, margins are based on $carousel-control-* in bootstrap-variables.scss */}}
+      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: {{$item.align | default "left"}};">
           <h1 class="hero-title ">
             {{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}
           </h1>
@@ -77,8 +78,8 @@
             </p>
           {{ end }}
         </div>
-      </div>
     </div>
+  </div>
   {{ end }}
 </div>
 
@@ -93,14 +94,3 @@
   <span class="sr-only">Next</span>
 </a>
 {{ end }}
-
-<!-- Include jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Initialize Carousel -->
-<script>
-  $(document).ready(function() {
-    $('#{{ $hash_id }}').carousel({
-      interval: {{ .design.interval | default "3000" }}
-    });
-  });
-</script>
