@@ -43,3 +43,9 @@ button:hover {
 .prose-slate > p {
   text-align: justify;
 }
+.max-w-prose > .flex {
+  display: none;
+}
+.max-w-prose > .text-xl {
+  display: none;
+}
