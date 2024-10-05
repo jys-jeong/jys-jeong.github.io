@@ -65,22 +65,22 @@ work:
 skills:
   - name: ""
     items:
-      - name: 스포츠
+      - name: Sports
         description: ""
         percent: 60
         icon: "futbol"
         icon_pack: "fa-solid"
-      - name: 영상 시청
+      - name: Watch the video
         description: ""
         percent: 100
         icon: film
         icon_pack: "fa-solid"
-      - name: 맛집 탐방
+      - name: visiting good restaurants
         description: ""
         percent: 80
         icon: "store"
         icon_pack: "fa-solid"
-      - name: 노래 듣기
+      - name: Listening to music
         description: ""
         percent: 80
         icon: "music"
