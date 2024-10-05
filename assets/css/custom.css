@@ -17,3 +17,11 @@ button:hover {
 .navbar > .ml-auto {
   margin-left: 0px !important;
 }
+.resume-biography > .max-w-prose {
+  margin-left: auto;
+  margin-right: auto;
+}
+.resume-biography > .mx-auto {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
