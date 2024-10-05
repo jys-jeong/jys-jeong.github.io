@@ -8,10 +8,11 @@ cascade:
       kind: page
     params:
       show_breadcrumb: true
-banner:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/)"
-  image: "app.jpg"
+
 sections:
+  - block: collection
+    content:
+      text: "![img](app.jpg)"
   - block: collection
     id: activities
     content:
