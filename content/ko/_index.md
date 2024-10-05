@@ -42,12 +42,6 @@ sections:
                 brightness: 0.4
             position: center
             color: "#000"
-          link:
-            icon: user
-            icon_pack: fas
-            text: <span style="font-size:60%">Join Us</span>
-            text-color: "#000"
-            url: contact
 
         - title: <span style="font-size:70%">AI</span>
           content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발</span>
