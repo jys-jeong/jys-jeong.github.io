@@ -32,8 +32,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">Recruit</span>
-          content: <span style="font-size:70%">Interested in MacsLAB?</span>
+        - title: Recruit
+          content: Interested in MacsLAB?
           align: center
           background:
             image:
@@ -53,6 +53,7 @@ sections:
                 brightness: 0.4
             position: center
             color: "#000"
+
         - title: <span style="font-size:70%">Healthcare</span>
           content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
           align: center
