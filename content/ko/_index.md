@@ -47,7 +47,7 @@ sections:
               filters:
                 brightness: 0.4
             position: center
-            color: "#000"
+            color: "#fff"
 
         - title: 앱 개발
           content:
@@ -58,7 +58,7 @@ sections:
               filters:
                 brightness: 0.4
             position: center
-            color: "#000"
+            color: "#fff"
 
         - title: 헬스
           content:
@@ -69,7 +69,7 @@ sections:
               filters:
                 brightness: 0.4
             position: center
-            color: "#000"
+            color: "#fff"
         - title: 운동 역학
           content:
           align: center
@@ -79,7 +79,7 @@ sections:
               filters:
                 brightness: 0.4
             position: center
-            color: "#000"
+            color: "#fff"
 
       design:
         # Slide height is automatic unless you force a specific height (e.g. '400px')
