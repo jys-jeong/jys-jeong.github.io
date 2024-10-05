@@ -5,6 +5,9 @@ button:hover {
 .carousel-item {
   height: 350px; /* 원하는 높이로 설정 */
 }
+.carousel-item > .hero-title {
+  color: white;
+}
 .navbar-nav {
   flex-direction: row !important;
   order: 1 !important;
