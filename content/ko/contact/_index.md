@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 연락망
 date: 2022-10-24
 
 type: landing

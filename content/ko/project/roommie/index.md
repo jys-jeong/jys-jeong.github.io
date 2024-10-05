@@ -1,5 +1,5 @@
 ---
-title: Roomie
+title: 루미
 summary: 2023년 1월 - 2024년 2월
 
 tags:
