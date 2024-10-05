@@ -4,6 +4,8 @@ button:hover {
 }
 .carousel-item {
   height: 350px; /* 원하는 높이로 설정 */
+}
+.carousel-item > .position-absolute {
   backdrop-filter: brightness(0.4);
 }
 .wg-hero > .hero-title > span {
