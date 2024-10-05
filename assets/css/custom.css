@@ -31,7 +31,7 @@ button:hover {
   margin-left: auto;
   margin-right: 0 !important;
 }
-.resume-biography > .mx-auto > .bio-text {
+.resume-biography > .max-w-prose > div > .bio-text > p {
   text-align: justify;
 }
 .grid > div > .pl-5 {
