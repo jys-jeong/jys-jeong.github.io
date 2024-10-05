@@ -1,6 +1,6 @@
 ---
-title: 구해줘 룸메
-summary: 2022년 3월 - 2022년 6월
+title: Find Roommate
+summary: March 2022 - June 2022
 
 tags:
   - Hugo
@@ -8,30 +8,30 @@ tags:
   - Markdown
 ---
 
-WPF 프레임워크를 사용해서 MVVM 패턴을 적용한 기숙사 룸메이트 매칭 시스템.
+Dormate roommate matching system with MVVM pattern using WPF framework.
 
-### 기술
+### Skills
 
-- 사용 기술: {{< icon name="devicon/windows8" >}} Window | {{< icon name="devicon/csharp" >}}C# | {{< icon name="devicon/microsoftsqlserver" >}}SQL
-- 개발 기간: 2022년 3월 - 2022년 6월
-- 참고 자료: <a href="/uploads/FindRoommate_Report.pdf" download>{{< icon name="hero/document" >}}</a>
+- Skills: {{< icon name="devicon/windows8" >}} Window | {{< icon name="devicon/csharp" >}}C# | {{< icon name="devicon/microsoftsqlserver" >}}SQL
+- Development Period: March 2022 - June 2022
+- Reference: <a href="/uploads/FindRoommate_Report.pdf" download>{{< icon name="hero/document" >}}</a>
 
-### 기능
+### Function
 
-- 회원가입
-- 이메일 인증
-- 로그인
-- 개인정보 공개/비공개
-- 생활패턴 및 성향 파악 설문조사
-- 사용자 검색 / 필터링 검색
-- 순위
-- 채팅
+- Register
+- Email Authentication
+- Log-in
+- Hide Personal Information
+- A Survey on Life Patterns and Tendencies
+- Search User / Filter Search
+- Rank
+- Chatting
 
-### 기여한 부분
+### Contribution
 
-**프로젝트 전체 기여함**
+**Contributing to the entire project**
 
-- 프로젝트 논리적 구조
-- 데이터 바인딩
-- 웹 디자인 및 UI/UX
-- 회원가입 인증
+- project logical structure
+- Data Binding
+- Web Design & UI/UX
+- Register & Authentication

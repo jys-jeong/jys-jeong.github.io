@@ -1,6 +1,6 @@
 ---
 title: Litmus Online Judge
-summary: 2024년 4월 - 현재
+summary: April 2024 - Present
 
 tags:
   - Hugo
@@ -8,33 +8,33 @@ tags:
   - Markdown
 ---
 
-오픈소스 DMOJ를 활용한 전북대학교 온라인 저지 사이트.
-전북대학교 구 온라인 저지 사이트 Litmus가 결함이 있어 이를 해결하고자 프로젝트를 진행함
+Jeonbuk National University's online judge site using open source DMOJ.
+The existing online blocking site Litmus of Chonbuk National University is defective, so the project was carried out to solve this problem.
 
-### 기술
+### Skills
 
-- 사용 기술: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/javascript" >}}Javascript | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/django" >}}Django | {{< icon name="devicon/mariadb" >}}mariadb | {{< icon name="devicon/nginx" >}}Nginx | {{< icon name="devicon/uwsgi" >}}uWSGI | {{< icon name="devicon/latex" >}}Latex | {{< icon name="devicon/ubuntu" >}}Ubuntu
-- 개발 기간: 2024년 4월 - 현재
-- 참고 자료: [{{< icon name="devicon/github" >}}](https://github.com/DMOJ/online-judge?tab=readme-ov-file)
+- Skills: {{< icon name="devicon/html5" >}}HTML | {{< icon name="devicon/css3" >}}CSS | {{< icon name="devicon/javascript" >}}Javascript | {{< icon name="devicon/python" >}}Python | {{< icon name="devicon/django" >}}Django | {{< icon name="devicon/mariadb" >}}mariadb | {{< icon name="devicon/nginx" >}}Nginx | {{< icon name="devicon/uwsgi" >}}uWSGI | {{< icon name="devicon/latex" >}}Latex | {{< icon name="devicon/ubuntu" >}}Ubuntu
+- Development Period: April 2024 - Present
+- Reference: [{{< icon name="devicon/github" >}}](https://github.com/DMOJ/online-judge?tab=readme-ov-file)
 
-### 기능
+### Function
 
-- 회원가입
-- 이메일 인증
-- 로그인
-- 아이디 찾기
-- 비밀번호 초기화
-- 과제 등록/삭제/수정
-- 문제 등록/삭제/수정
-- 순위
-- 문제 목록
-- 관리자 모드
-- 컴파일
-- 테스트케이스 등록/수정
+- Register
+- Email Authentication
+- Log-in
+- Find ID
+- Password reset
+- Register/delete/modify assignments
+- Register/delete/modify problems
+- Rank
+- Problem List
+- Admin mode
+- Compile
+- Register/delete/modify Test case
 
-### 기여한 부분(프론트 엔드)
+### Contribution(Frontend)
 
-1. **사이트 전체적인 UI/UX**
-2. **judge 언어 등록**
-3. **문제 카테고리별 필터링 추가**
-4. **사이트 프로토타입 수정**
+1. **Site's overall UI/UX**
+2. **Register judge language**
+3. **Add filtering by problem category**
+4. **Modifying Site Prototypes**

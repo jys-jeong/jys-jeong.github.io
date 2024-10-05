@@ -1,6 +1,6 @@
 ---
 title: Roomie
-summary: 2023년 1월 - 2024년 2월
+summary: January 2023 - February 2024
 
 tags:
   - Hugo
@@ -8,33 +8,34 @@ tags:
   - Markdown
 ---
 
-웹 기반 프로그램인 '구해줘 룸메' 프로젝트를 Firebase의 Serverless를 이용한 모바일 기반 프로그램으로 처음부터 개발 및 배포했습니다.
+The 'Find Roommate' project, a web-based program, was developed and distributed from the beginning as a mobile-based program using Firebase's Serverless.
 
-### 기술
+### Skills
 
-- 사용 기술: {{< icon name="devicon/dart" >}}Dart | {{< icon name="devicon/flutter" >}}Flutter | {{< icon name="devicon/firebase" >}}Firebase | {{< icon name="devicon/android" >}}Android | {{< icon name="devicon/apple" >}}IOS
-- 개발 기간: 2023년 1월 - 2024년 2월
-- 참고 자료: [{{< icon name="devicon/github" >}}](https://github.com/jys-jeong/Roomie-v2)
+- Skills: {{< icon name="devicon/dart" >}}Dart | {{< icon name="devicon/flutter" >}}Flutter | {{< icon name="devicon/firebase" >}}Firebase | {{< icon name="devicon/android" >}}Android | {{< icon name="devicon/apple" >}}IOS
+- Development Period: January 2023 - February 2024
+- Reference: [{{< icon name="devicon/github" >}}](https://github.com/jys-jeong/Roomie-v2)
 
-### 기능
+### Function
 
-- 회원가입
-- 이메일 인증
-- 로그인
-- 비밀번호 초기화
-- 생활패턴 설문조사
-- 생활패턴별 룸메이트 추천 시스템
-- 내 정보
-- 채팅
-- 채팅 푸시 알림
-- 매칭 신청/수락/거절
-- 신고
+- Register
+- Email Authentication
+- Log-in
+- Find ID
+- Password reset
+- a survey of lifestyle
+- Roommate recommendation system by lifestyle
+- My information
+- chatting
+- Chat push notification
+- an application/acceptance/rejection for a match
+- report
 
-### 기여한 부분
+### Contribution
 
-1. **앱 UI/UX 디자인 적용 및 수정**
-2. **채팅 푸시 알림**
-3. **채팅 차단 기능**
-4. **요구사항 설문조사 홍보**
-5. **요구사항 설문지 구성**
-6. **번역 기능**
+1. **App UI/UX Design Application and Modification**
+2. **Chat push notification**
+3. **Chat blocking function**
+4. **Promoting the Requirements Survey**
+5. **Organize the Requirements Questionnaire**
+6. **translation**

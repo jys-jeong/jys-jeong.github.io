@@ -1,6 +1,6 @@
 ---
-title: 감성 경로 라우팅
-summary: 2024 3월 ~ 6월
+title: Emotional Route Routing
+summary: March 2024 ~ June 2024
 
 tags:
   - Hugo
@@ -8,34 +8,34 @@ tags:
   - Markdown
 ---
 
-- 산학실전캡스톤 강의 중 LX 한국국토정보공사와 산학 협력함
-- 딥러닝 기반 감성 경로 라우팅
+- Industry-academic cooperation with LX Korea Land Information Corporation during the industry-academic demonstration capstone lecture
+- Deep Learning-Based Emotional Path Routing
 
-### 기술
+### Skills
 
-- 사용 기술: {{< icon name="devicon/python" >}} Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/javascript" >}} Javascript | {{< icon name="devicon/lua" >}} Lua | {{< icon name="devicon/windows11" >}} Windows | {{< icon name="devicon/docker" >}} Docker
-- 개발 기간: 2024년 3월 - 6월
-- 참고 자료: [{{< icon name="hero/document" >}}](report.pdf)
+- Skills: {{< icon name="devicon/python" >}} Python | {{< icon name="devicon/pytorch" >}}Pytorch | {{< icon name="devicon/javascript" >}} Javascript | {{< icon name="devicon/lua" >}} Lua | {{< icon name="devicon/windows11" >}} Windows | {{< icon name="devicon/docker" >}} Docker
+- Development Period: 2024년 3월 - 6월
+- Reference: [{{< icon name="hero/document" >}}](report.pdf)
 
-### 기능
+### Function
 
-Beautiful, Safety, Lively중 선택한 감성의 경로를 딥러닝 모델을 활용해서 라우팅해서 지도에 출력함
+The emotional path selected among Beautiful, Safety, and Life is routed using a deep learning model and outputted on the map.
 
-### 기여한 부분
+### Contribution
 
-1. **가로경관 이미지 데이터 수집**
+1. **Collect landscape image data**
 
-- Google Cloud를 활용해서 Google map의 가로경관 각 지점에서 0도, 90도, 180도, 270도 이미지 데이터 수집
+- Use Google Cloud to collect 0, 90, 180 and 270-degree image data at each point in the horizontal landscape of Google map
 
-2. **라우팅 알고리즘 분석**
+2. **Analysis of routing algorithms**
 
-- 라우팅 알고리즘 분석 및 감성점수 가중치 계산법 탐구
+- Exploring the Analysis of Routing Algorithms and the Calculation of Emotional Score Weight
 
-3. **설문지 제조 및 설문조사 홍보**
+3. **Create questionnaires and promote surveys**
 
-- 설문지 항목 구성
-- 충분한 모집단 구성을 위한 SNS 홍보
+- Organize questionnaire items
+- Promote SNS for sufficient population composition
 
-4. **설문조사 분석**
+4. **Survey Analysis**
 
-- 설문조사의 결과와 의의 분석
+- Analysis of Survey Results and Significance
