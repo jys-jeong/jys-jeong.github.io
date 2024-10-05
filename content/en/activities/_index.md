@@ -32,7 +32,7 @@ sections:
   - block: collection
     id: activities
     content:
-      title: 활동
+      title: Activities
       filters:
         folders:
           - activities

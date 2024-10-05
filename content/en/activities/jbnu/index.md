@@ -1,6 +1,6 @@
 ---
-title: 전북대학교
-summary: 2019.03.01 ~ 2025.02
+title: Jeonbuk National University
+summary: March 2019 ~ February 2025
 date: "2025.02.01"
 type: docs
 math: false
@@ -12,4 +12,4 @@ image:
 
 **내용**
 
-전북대학교 컴퓨터공학부 정예성 학사 졸업 예정
+Ye-Sung Jeong, Computer Engineering Department of Jeonbuk National University, to graduate

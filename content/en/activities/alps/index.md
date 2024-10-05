@@ -1,6 +1,6 @@
 ---
 title: ALPS
-summary: 2022.03.01 ~ 현재
+summary: March 2022 ~ Present
 date: "2022.03.01"
 type: docs
 math: false
@@ -14,12 +14,12 @@ image:
 
 {{< figure src="featured.jpg" >}}
 
-전북대학교 알고리즘 동아리 ALPS에 입부
-아래와 같은 활동을 수행하였습니다.
+<p>Joined ALPS, an algorithm club at Jeonbuk National University.</p>
+<p>I have performed the following activities.</p>
 
-- ICPC 출전
-- UCPC 출전
-- 자료구조 스터디
-- 알고리즘 스터디
-- 코딩테스트 스터디
-- 2022 ALPS 간부
+- ICPC participation
+- UCPC participation
+- Data Structure Study Group
+- Algorithm Study Group
+- Coding Test Study Group
+- 2022 ALPS Executives

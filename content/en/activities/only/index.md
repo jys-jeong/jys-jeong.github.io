@@ -1,5 +1,5 @@
 ---
-title: 제 56대 온리 공과대학 선거운동본부 정책참모
+title: Policy Staff, 56th Only University of Technology Campaign Headquarters
 summary: 2023.09.01 ~ 2023.11.30
 date: 2023.09.01
 type: docs
@@ -14,4 +14,4 @@ image:
 
 {{< figure src="featured.png" >}}
 
-제 56대 온리 공과대학 선거운동본부 정책참모직을 수행하였습니다.
+I served as a policy staff member of the 56th Only Technical University Campaign Headquarters.
