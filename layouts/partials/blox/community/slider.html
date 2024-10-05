@@ -108,14 +108,12 @@
 
     // 슬라이드가 표시될 때마다 클래스 추가
     items.each(function(index) {
-        // 각 슬라이드의 시작 시점에서 해당 슬라이드의 인덱스를 확인하고 조정
         $(this).on('slide.bs.carousel', function () {
-            // 필요한 추가 로직이 있다면 여기에 추가
             console.log('슬라이드 이동 중:', index);
         });
     });
 
-    // 카로셀 초기화
-    $('#{{ $hash_id }}').carousel();
+    // 카로셀 초기화 (슬래시 이스케이프 처리)
+    $('#{{ $hash_id | replace "/" "\\/" }}').carousel();
 });
 </script>
