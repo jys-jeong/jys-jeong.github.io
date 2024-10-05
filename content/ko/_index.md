@@ -50,7 +50,7 @@ sections:
             url: contact
 
         - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발</span style="font-size:70%">
+          content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발</span>
           align: center
           background:
             image:
