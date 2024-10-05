@@ -10,6 +10,6 @@ image:
   caption: "Embed rich media such as videos and LaTeX math"
 ---
 
-**내용**
+**Content**
 
 Ye-Sung Jeong, Computer Engineering Department of Jeonbuk National University, to graduate

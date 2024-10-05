@@ -10,7 +10,7 @@ image:
   caption: "Embed rich media such as videos and LaTeX math"
 ---
 
-**내용**
+**Content**
 
 {{< figure src="featured.png" >}}
 
