@@ -7,7 +7,6 @@ button:hover {
 }
 .navbar-nav {
   flex-direction: row !important;
-}
-.ml-auto {
-  margin-left: 0 !important;
+  order: 1 !important;
+  margin-left: auto;
 }
