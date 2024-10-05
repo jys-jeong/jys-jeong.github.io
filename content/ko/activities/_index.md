@@ -9,8 +9,10 @@ cascade:
     params:
       show_breadcrumb: true
 banner:
-  image: "app.jpg" # 배너 이미지 경로
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/)" # 이미지 출처 및 캡션
+  image: "assets/media/app.png" # Full path to your banner image
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/)" # Markdown-supported caption for the image
+  alt: "A descriptive text for the banner image"
+  class: "full-width"
 
 sections:
   - block: collection
