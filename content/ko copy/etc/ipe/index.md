@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사
+title: Information Processing Engineer
 
 date: 2024-09-10
 
@@ -16,7 +16,7 @@ authors:
 #   - Markdown
 ---
 
-2024년도 2회 정보처리기사 시험을 치루고 9월 10일에 자격증을 취득했습니다.
+I took the 2nd information processor test in 2024 and obtained the certificate on September 10th.
 
 <!-- Welcome 👋
 

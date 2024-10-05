@@ -12,8 +12,8 @@ sections:
       email: cuzl159(at)jbnu.ac.kr
       phone: +82 010-7696-5061
       address:
-        street: Jeonbuk National University Saebit Hall 1, Room 311,
-        city: Jeonju-si,
+        street: Jeonbuk National University Saebit Hall 1, Room 311
+        city: Jeonju-si
         region: Jeollabuk-do,
         postcode: "54896"
         country: Korea
