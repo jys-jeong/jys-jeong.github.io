@@ -3,7 +3,7 @@ title: Contact
 date: 2022-10-24
 
 type: landing
-Jeonbuk National University Saebit Hall 1, Room 311, Jeonju-si, Jeollabuk-do 54896
+
 sections:
   - block: community/contact
     content:
