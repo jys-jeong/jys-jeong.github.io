@@ -13,7 +13,7 @@ sections:
   - block: collection
     id: certifications
     content:
-      title: Certifications
+      title: 자격증
 
       count: 5
       filters:
