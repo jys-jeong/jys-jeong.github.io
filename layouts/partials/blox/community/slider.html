@@ -8,12 +8,6 @@
 {{ $hash_id := .wcIdentifier }}
 {{ $slide_count := len $block.content.slides }}
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <!-- Indicators -->
 {{ if gt $slide_count 1 }}
 <ol class="carousel-indicators">
@@ -100,20 +94,3 @@
   <span class="sr-only">Next</span>
 </a>
 {{ end }}
-
-<script>
-  $(document).ready(function() {
-    // 모든 carousel-item 요소를 가져오기
-    const items = $('.carousel-item');
-
-    // 슬라이드가 표시될 때마다 클래스 추가
-    items.each(function(index) {
-        $(this).on('slide.bs.carousel', function () {
-            console.log('슬라이드 이동 중:', index);
-        });
-    });
-
-    // 카로셀 초기화 (슬래시 이스케이프 처리)
-    $('#{{ $hash_id | replace "/" "\\/" }}').carousel();
-});
-</script>
