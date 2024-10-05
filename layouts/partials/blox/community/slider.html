@@ -13,7 +13,7 @@
 
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <!-- Indicators -->
 {{ if gt $slide_count 1 }}
 <ol class="carousel-indicators">
@@ -100,3 +100,22 @@
   <span class="sr-only">Next</span>
 </a>
 {{ end }}
+
+<script>
+  $(document).ready(function() {
+    // 모든 carousel-item 요소를 가져오기
+    const items = $('.carousel-item');
+
+    // 슬라이드가 표시될 때마다 클래스 추가
+    items.each(function(index) {
+        // 각 슬라이드의 시작 시점에서 해당 슬라이드의 인덱스를 확인하고 조정
+        $(this).on('slide.bs.carousel', function () {
+            // 필요한 추가 로직이 있다면 여기에 추가
+            console.log('슬라이드 이동 중:', index);
+        });
+    });
+
+    // 카로셀 초기화
+    $('#{{ $hash_id }}').carousel();
+});
+</script>
