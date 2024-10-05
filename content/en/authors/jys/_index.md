@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 정예성
+title: Jeong Ye-Seong
 
 # Name pronunciation (optional)
 name_pronunciation:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 전북대학교 컴퓨터공학부
+role: Jeonbuk National University Computer Engineering
 
 # Organizations/Affiliations to display in Biography blox
 # organizations:
@@ -39,10 +39,10 @@ profiles:
     url: https://github.com/jys-jeong
 
 interests:
-  - 웹 개발
-  - 앱 개발
-  - 헬스
-  - 운동 역학
+  - Web Development
+  - Application Development
+  - Health
+  - Sports Biomechanics
 
 # education:
 #   - area: PhD Artificial Intelligence
@@ -176,17 +176,17 @@ awards:
 
 ## 소개
 
-<strong>협업을 잘하는 학생, 정예성입니다.</strong>
+<strong>I'm Jeong Ye-sung, a student who collaborates well.</strong>
 
 <p>
-혼자 일하는 것보다 팀과 함께 일하는 것을 좋아합니다. 취미도 팀 스포츠를 하는 것이고, 협업하며 함께 성장하는 과정에서 성취를 느낍니다.
-새로운 기술을 빠르게 학습하고 수용하길 좋아하여 늘 호기심을 갖고 탐색합니다.
+I like working with my team rather than working alone. My hobby is also playing team sports, and I feel achievement in the process of collaborating and growing together.
+I like to learn and embrace new skills quickly, so I always explore with curiosity.
 </p>
 
-<strong>목표</strong>
+<strong>Goal</strong>
 
-<p>모든 일에 열심히 하는 것.</p>
+<p>To live a happy life by working hard at everything</p>
 
-<strong>진로</strong>
+<strong>career</strong>
 
-<p>프론트엔드 or 공기업 -> 프리랜서</p>
+<p>Frontend Engineering or a public corporation -> Freelance</p>

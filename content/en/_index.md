@@ -38,7 +38,7 @@ sections:
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">웹 개발</span>
+        - title: <span style="font-size:70%">Web Development</span>
           content:
           align: center
           background:
@@ -49,7 +49,7 @@ sections:
             position: center
             color: "#fff"
 
-        - title: <span style="font-size:70%">앱 개발</span>
+        - title: <span style="font-size:70%">Application Development</span>
           content:
           align: center
           background:
@@ -60,7 +60,7 @@ sections:
             position: center
             color: "#fff"
 
-        - title: <span style="font-size:70%">헬스</span>
+        - title: <span style="font-size:70%">Health</span>
           content:
           align: center
           background:
@@ -70,7 +70,7 @@ sections:
                 brightness: 0.4
             position: center
             color: "#fff"
-        - title: <span style="font-size:70%">운동 역학</span>
+        - title: <span style="font-size:70%">Sports Biomechanics</span>
           content:
           align: center
           background:
@@ -94,7 +94,7 @@ sections:
   - block: community/resume-skills
     id: hobbies
     content:
-      title: 취미
+      title: Hobby
       username: admin
     design:
       show_skill_percentage: false

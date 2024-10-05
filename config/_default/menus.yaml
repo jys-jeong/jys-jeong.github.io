@@ -20,7 +20,7 @@ main:
   - name: My
     parent: bio
     url: /
-  - name: 취미
+  - name: Hobby
     parent: bio
     url: /#hobbies
   - name: Experience
