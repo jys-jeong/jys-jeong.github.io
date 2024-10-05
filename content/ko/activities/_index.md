@@ -10,9 +10,11 @@ cascade:
       show_breadcrumb: true
 
 sections:
-  - block: markdown
+  - block: collection
     content:
       text: "![img](app.jpg)"
+    design:
+      view:
   - block: collection
     id: activities
     content:
