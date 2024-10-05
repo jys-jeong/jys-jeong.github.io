@@ -37,9 +37,9 @@ button:hover {
 .grid > div > .pl-5 {
   padding-left: 1.25rem !important;
 }
-.content.text-base > p {
+.text-base > p {
   text-align: justify;
 }
-.prose.prose-slate.lg:prose-xl.dark:prose-invert > p {
+.prose-slate > p {
   text-align: justify;
 }
