@@ -10,7 +10,7 @@ cascade:
       show_breadcrumb: true
 
 sections:
-  - block: collection
+  - block: markdown
     content:
       text: "![img](app.jpg)"
     design:
