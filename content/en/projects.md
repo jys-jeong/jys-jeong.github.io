@@ -30,7 +30,7 @@ sections:
       css_class: fullscreen
   - block: community/collection
     content:
-      title: Projects
+      title: 프로젝틍
       filters:
         folders:
           - project
