@@ -5,7 +5,7 @@ button:hover {
 .carousel-item {
   height: 350px; /* 원하는 높이로 설정 */
 }
-.carousel-item > .hero-title {
+.wg-hero > .hero-title > span {
   color: white;
 }
 .navbar-nav {
