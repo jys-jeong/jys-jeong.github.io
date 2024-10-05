@@ -3,9 +3,7 @@ title: Contact
 date: 2022-10-24
 
 type: landing
-banner:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/)"
-  image: "app.jpg"
+
 sections:
   - block: community/contact
     content:
