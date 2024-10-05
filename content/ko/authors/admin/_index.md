@@ -109,22 +109,23 @@ activites:
     caption: "Embed rich media such as videos and LaTeX math"
 
 awards:
-  - title: 2022 a bronze statue of a contest
+  - title: 2022 작품경진대회 동상
     certificate_url: "/uploads/find.pdf"
     date: "2022-12-09"
     summary: |
-      2022-1 Windows programming projects - Find Roommate
-        - Dormate Roommate Matching System
-  - title: 2023 a bronze statue of a contest
+      2022-1 윈도우즈프로그래밍 프로젝트 - 구해줘 룸메
+        - 기숙사 룸메이트 매칭 시스템
+  - title: 2023 작품경진대회 동상
     certificate_url: "/uploads/roomie.jpg"
     date: "2023-12-21"
     summary: |
-      Change the development framework of the above project 'Find My Roommate' and redevelop it
-  - title: "2024 Capstone Competition Excellence Award"
+      위 프로젝트 구해줘 룸메의 개발 프레임워크를 변경해서 재개발
+  - title: "2024 캡스톤 경진대회 우수상"
     certificate_url: "/uploads/garo.jpg"
     date: "2024-06-21"
     summary: |
-      2024-1 Emotional route routing using the theme of street landscape image analysis in collaboration with LX (Korea Land Information Corporation) by taking the Industry-Academic Field Capstone 2 lecture
+      2024-1 산학실전캡스톤 2 강의를 수강해서 LX(한국국토정보공사)와 협업해서
+      가로경관 이미지 분석을 주제를 이용한 감성경로 라우팅
 ---
 
 ## About Me
