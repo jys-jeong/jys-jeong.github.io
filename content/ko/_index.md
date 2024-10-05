@@ -38,7 +38,7 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 웹 개발
+        - title: <span style="font-size:70%">웹 개발<span style="font-size:70%">
           content:
           align: center
           background:
@@ -49,7 +49,7 @@ sections:
             position: center
             color: "#fff"
 
-        - title: 앱 개발
+        - title: <span style="font-size:70%">앱 개발<span style="font-size:70%">
           content:
           align: center
           background:
@@ -60,7 +60,7 @@ sections:
             position: center
             color: "#fff"
 
-        - title: 헬스
+        - title: <span style="font-size:70%">헬스<span style="font-size:70%">
           content:
           align: center
           background:
@@ -70,7 +70,7 @@ sections:
                 brightness: 0.4
             position: center
             color: "#fff"
-        - title: 운동 역학
+        - title: <span style="font-size:70%">운동 역학<span style="font-size:70%">
           content:
           align: center
           background:
