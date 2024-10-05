@@ -38,8 +38,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: Recruit
-          content: Interested in MacsLAB?
+        - title: 웹 개발
+          content:
           align: center
           background:
             image:
@@ -49,8 +49,8 @@ sections:
             position: center
             color: "#000"
 
-        - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발</span>
+        - title: 앱 개발
+          content:
           align: center
           background:
             image:
@@ -60,8 +60,8 @@ sections:
             position: center
             color: "#000"
 
-        - title: <span style="font-size:70%">Healthcare</span>
-          content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+        - title: 헬스
+          content:
           align: center
           background:
             image:
@@ -70,8 +70,8 @@ sections:
                 brightness: 0.4
             position: center
             color: "#000"
-        - title: <span style="font-size:70%">Mathematics</span>
-          content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+        - title: 운동 역학
+          content:
           align: center
           background:
             image:
