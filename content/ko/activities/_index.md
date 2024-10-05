@@ -12,9 +12,23 @@ cascade:
 sections:
   - block: markdown
     content:
-      text: "![img](app.jpg)"
+      title:
+      subtitle: ""
+      text:
     design:
-      class: "full-width"
+      columns: "1"
+      background:
+        image:
+          filename: app.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
+      css_class: fullscreen
   - block: collection
     id: activities
     content:
