@@ -109,13 +109,13 @@ activites:
     caption: "Embed rich media such as videos and LaTeX math"
 
 awards:
-  - title: 2022 a bronze statue of a contest
+  - title: 2022 bronze statue of a contest
     certificate_url: "/uploads/find.pdf"
     date: "2022-12-09"
     summary: |
       2022-1 Windows programming projects - Find Roommate
         - Dormate Roommate Matching System
-  - title: 2023 a bronze statue of a contest
+  - title: 2023 bronze statue of a contest
     certificate_url: "/uploads/roomie.jpg"
     date: "2023-12-21"
     summary: |

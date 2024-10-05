@@ -3,7 +3,7 @@ title: Contact
 date: 2022-10-24
 
 type: landing
-
+Jeonbuk National University Saebit Hall 1, Room 311, Jeonju-si, Jeollabuk-do 54896
 sections:
   - block: community/contact
     content:
@@ -12,11 +12,11 @@ sections:
       email: cuzl159(at)jbnu.ac.kr
       phone: +82 010-7696-5061
       address:
-        street: 전북대학교 새빛1관 311호
-        city: 전주시
-        region: 전라북도
+        street: Jeonbuk National University Saebit Hall 1, Room 311
+        city: , Jeonju-si
+        region: , Jeollabuk-do
         postcode: "54896"
-        country: 대한민국
+        country: Korea
         country_code: KO
       coordinates:
         latitude: "35.851786"
