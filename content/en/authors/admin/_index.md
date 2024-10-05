@@ -43,17 +43,17 @@ interests:
   - Application
 
 education:
-  - area: 전북대학교 컴퓨터공학부 학사
-    institution: 전북대학교
+  - area: Bachelor of Science in Computer Engineering, Jeonbuk National University
+    institution: Jeonbuk National University
     date_start: 2019-03-01
     date_end: ""
     summary: |
-      - 총 학점 평균: 4.22
-      - 전공 학점 평균: 4.24
+      - the average of total grade: 4.22
+      - the average of major grade: 4.24
 
 work:
-  - position: 전북대학교 제 1대 컴퓨터인공지능학부 학생 회장
-    company_name: 전북대학교 컴퓨터인공지능학부
+  - position: Jeonbuk National University's 1st Computer Artificial Intelligence Department Student President
+    company_name: Jeonbuk National University Computer Artificial Intelligence Department
     company_url: ""
     company_logo: ""
     date_start: 2022-12-01
