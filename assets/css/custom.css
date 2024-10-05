@@ -14,3 +14,6 @@ button:hover {
 .navbar > .ml-auto > .mr-5 {
   margin-right: 0px !important;
 }
+.navbar > .ml-auto {
+  margin-left: 0px !important;
+}
